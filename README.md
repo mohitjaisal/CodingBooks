@@ -1,4 +1,5 @@
 # CodingBooks
 All popular coding books.
 
-<img src="/BooksThumb/codingbooksgif" alt=""></a>
+
+![alt text](https://github.com/mohitjaisal/CodingBooks/BooksThumb/codingbooksgif.gif")
