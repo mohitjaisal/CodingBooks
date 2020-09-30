@@ -7,4 +7,4 @@
 
 
 
-![alt text](https://github.com/mohitjaisal/GifStore/blob/master/codingbooksgif.gif)
+![alt text](https://github.com/mohitjaisal/ImageStore/blob/master/GifStore/codingbooksgif.gif)
