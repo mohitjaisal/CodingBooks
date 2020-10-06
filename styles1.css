@@ -13,6 +13,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .bluelight a {
   display: table-cell;
   font-size: 3em;
@@ -27,11 +28,13 @@ body {
   background-image: radial-gradient(center, ellipse cover, rgba(10, 175, 230, 0) 0%, rgba(10, 175, 230, 0) 90%);
   border: 0 dotted rgba(10, 175, 230, 0);
 }
+
 .bluelight a:hover {
   color: #fff;
   text-shadow: 0 0 50px #0aafe6, 0 0 50px #0aafe6;
   background-image: radial-gradient(center, ellipse cover, rgba(10, 175, 230, 0.3) 0%, rgba(10, 175, 230, 0) 60%);
 }
+
 .bluelight:before, .bluelight:after, .bluelight a:before, .bluelight a:after {
   transition: 0.2s ease-in-out;
   content: "";
@@ -43,6 +46,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
 .bluelight:before {
   animation: rotate 20s linear 0s infinite;
   width: 180%;
@@ -50,6 +54,7 @@ body {
   border: 3px dotted rgba(10, 175, 230, 0);
   z-index: -1;
 }
+
 .bluelight:after {
   animation: rotate 10s linear 0s infinite reverse;
   border: 80px dashed rgba(10, 175, 230, 0);
@@ -57,27 +62,33 @@ body {
   height: 160%;
   z-index: -2;
 }
+
 .bluelight a:before {
   animation: rotate 5s ease-in-out 0s infinite alternate;
   width: 120%;
   height: 120%;
   border: 50px dashed rgba(10, 175, 230, 0);
 }
+
 .bluelight a:after {
   animation: rotate 5s linear 0s infinite;
   border: 18px dashed rgba(10, 175, 230, 0);
   width: 120%;
   height: 120%;
 }
+
 .bluelight:hover:before {
   border-color: rgba(10, 175, 230, 0.3);
 }
+
 .bluelight:hover:after {
   border-color: rgba(10, 175, 230, 0.1);
 }
+
 .bluelight:hover a:before {
   border-color: rgba(10, 175, 230, 0.3);
 }
+
 .bluelight:hover a:after {
   border-color: rgba(10, 175, 230, 0.3);
 }
@@ -90,6 +101,7 @@ body {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
 p.caption {
   font-size: 0.7em;
   text-align: center;
