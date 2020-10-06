@@ -1,6 +1,3 @@
-
-
-
 body {font-family: 'Comfortaa', sans-serif;  padding: 40px; background-color: #1a1a1a; }
 .container { width: 300px; text-align: center; }
 h1,h2{
@@ -8,15 +5,18 @@ h1,h2{
 	font-family: 'Comfortaa', sans-serif; 
 
 }
+
 a{
 	text-decoration: none;
 	color: white;
 	font-family: 'Comfortaa', sans-serif; 
 
 }
+
 .copyright{
 	color: #bac964;
 }
+
 .copyright:hover{
 	transform: scale(1.3);
 	box-shadow: 0 4rem 5rem black;
@@ -30,25 +30,22 @@ a{
   display: inline-block;
   height: 300px;
   line-height: 300px;
-  
- 
   position: relative;
-
   color:rgb(255,255,255);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 20px;
-  
-  
 }
 
 .block1{
     text-align: center;
 }
+
 .box1:hover .poster{
 	transform: scale(1.2);
 }
+
 .box1 .poster{
 	box-shadow: 0 4rem 5rem black;
 	transition: all 0.5s;
