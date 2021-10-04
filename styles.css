@@ -2,13 +2,13 @@ body {font-family: 'Comfortaa', sans-serif;  padding: 40px; background-color: #1
 .container { width: 300px; text-align: center; }
 h1,h2{
 	color: white;
-	font-family: 'Comfortaa', sans-serif; 
+	font-family: 'Comfortaa', sans-serif;
 }
 
 a{
 	text-decoration: none;
 	color: white;
-	font-family: 'Comfortaa', sans-serif; 
+	font-family: 'Comfortaa', sans-serif;
 
 }
 .bd-grid{
@@ -19,14 +19,14 @@ a{
     width: calc(100%-2rem);
     margin-left: 1rem;
     margin-right: 1rem;
-} 
+}
 .l-header{
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
-    background-color: #696969;
+    background-color: #2b2b2b8c;
 }
 
 /* nav */
@@ -44,7 +44,7 @@ a{
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color:#696969 ;
+        background-color:#2b2b2b ;
         box-shadow: -10px 0px 30px -15px rgba(2,12,27,0.7);
         transition: .5s;
     }
@@ -58,10 +58,12 @@ a{
     color: white;
 }
 .nav_logo{
+    text-decoration: none;
+    cursor: pointer;
     color: white;
 }
 .nav_link:hover{
-    color: #bac964;
+    color: gray;
 }
 .nav_toggle{
     color: white;
@@ -76,7 +78,7 @@ a{
 }
 
 .copyright{
-	color: #bac964;
+	color: gray;
 }
 
 .copyright:hover{
