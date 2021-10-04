@@ -26,13 +26,22 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list">
                     <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
-                    <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+                    <li class="nav_item"><a onclick="on()" class="nav_link">About</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Categories</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Top Books</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Request a book</a></li>
                 </ul>
             </div>
-
+            <!-- overlay for about us -->
+            
+            <div id="overlay" onclick="off()" style="padding:20px">
+                <h2> About Us </h2>
+                Coding Books is the one stop solution for all your programming literature needs !
+                <br>
+                This website is an open source project 
+            </div>
+            
+            <!-- overlay ended -->
             <div class="nav_toggle" id="nav-toggle">
                 <i class='bx bx-menu-alt-right'></i>
             </div>
