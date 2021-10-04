@@ -5,6 +5,8 @@
 <a href="https://codingbooks.netlify.app"><img src="https://github.com/mohitjaisal/GifStore/blob/master/RawImages/Netlify%20Success.svg" alt="Netlify Status"></a>
 
 <br>
+<h3><a href="https://codingbooks.netlify.app">Website Demo link</a></h3>
+<br>
 
 ![alt text](https://github.com/mohitjaisal/ImageStore/blob/master/GifStore/codingbooksgif.gif)
 
