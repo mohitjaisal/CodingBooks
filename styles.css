@@ -5,6 +5,21 @@ h1,h2{
 	font-family: 'Comfortaa', sans-serif; 
 }
 
+.overlay {
+content = "width=device-width,initial-scale=1.0";
+  position: fixed;
+  display: none;
+  width: 60%;
+  height: 60%;
+  top:4rem;
+  width:80%;
+  align:center;
+  background-color: rgba(30,30,30,0.5);
+  color: rgb(240,240,240);
+  z-index: 20;
+  cursor: pointer;
+}
+
 a{
 	text-decoration: none;
 	color: white;
