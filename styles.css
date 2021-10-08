@@ -131,9 +131,7 @@ a{
 
   .nested-link-container{
       position: relative;
-      height: 0
   }
-  
 
   .nested-link-container:hover .nested-links {
      color: black;
@@ -196,11 +194,14 @@ a{
             transition: all 0.25s;
             margin-left: 25%;
         }
+        .nested-link-container:hover{
+            height: unset;
+        }
 
-.nested-link-container:hover .nested-links {
-      transition: all 0.25s;
-      height: 130px;
-  }
+    .nested-link-container:hover .nested-links {
+        transition: all 0.25s;
+        height: 130px;
+      }
     }
 	@media screen and (min-width: 1024px){
 		.nav_logo{
