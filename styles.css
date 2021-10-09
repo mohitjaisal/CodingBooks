@@ -1,4 +1,4 @@
-body {font-family: 'Comfortaa', sans-serif;  padding: 40px; background-color: #1a1a1a; }
+body {font-family: 'Comfortaa', sans-serif;  padding: 0px; background-color: #1a1a1a; }
 .container { width: 300px; text-align: center; }
 h1,h2{
 	color: white;
@@ -22,7 +22,7 @@ a{
 }
 .l-header{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 99;
@@ -226,3 +226,103 @@ a{
 			font-size: 1.1rem;
 		}
     }
+
+ /* Add a Book CSS  */
+
+.mainContent {
+    padding: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leftContent {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.rightContent {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.rightContent > img {
+    width: auto;
+    height: 100%;
+}
+.driveLinkHere {
+    font-size: 20px;
+    color: white ;
+    padding: 10px;
+} 
+.aboutDriveLink{
+    color: white;
+    opacity: 0.7;
+    padding: 10px;
+}
+
+#driveLinkInput {
+    width: 100%;
+    background-color: #363636;
+    padding: 12px 10px;
+    margin: 5px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display:inline-flex;
+    box-sizing: border-box;
+    color: rgb(185, 185, 185);
+    width: 100%;
+}
+.coverPage {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+.coverPageText {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+#coverPageFile {
+    color: white;
+    padding: 10px;
+}
+.bookType {
+    display: flex;
+    flex-direction: column;
+}
+
+.TypeQues {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+label {
+    padding: 10px;
+    color: white;
+}
+.addBook {
+    padding: 20px;
+}
+.addBook > button {
+
+    background-color: #C4C4C4;
+    padding: 12px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    display:inline-flex;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20px;
+    
+}
+.addBook > button:hover {
+    background-color: #4b4b4b ;
+    cursor: pointer;
+    color: white;
+}
+.coderVector {
+    float: right;
+}
