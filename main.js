@@ -26,3 +26,19 @@ function nestedLinkHandler (link) {
         interviewBooks.style.display = "block";
     }
 }
+
+function displayCategories(e) {
+    if (e.target.id !== "category-container") {
+        document.getElementById('category-nested-links').style.removeProperty("opacity");
+        document.getElementById('category-nested-links').style.removeProperty("visibility");
+        return;
+    }
+
+    if(document.getElementById('category-nested-links').style.opacity) {
+        document.getElementById('category-nested-links').style.removeProperty("opacity");
+        document.getElementById('category-nested-links').style.removeProperty("visibility");
+    } else {
+        document.getElementById('category-nested-links').style.opacity = 1;
+        document.getElementById('category-nested-links').style.visibility = "visible";
+    }
+}

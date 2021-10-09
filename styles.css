@@ -134,11 +134,17 @@ a{
   }
 
   .nested-link-container:hover .nested-links {
-     color: black;
-     cursor: pointer;
-     height: unset;
-     opacity: 1;
-     transition: all 0.25s;
+    visibility: visible;
+    opacity: 1;
+ }
+
+  .nested-links {
+    color: black;
+    cursor: pointer;
+    height: unset;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.25s;
   }
 
   .nested-links-item:hover{

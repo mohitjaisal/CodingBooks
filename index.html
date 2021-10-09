@@ -27,8 +27,8 @@
                 <ul class="nav_list">
                     <li class="nav_item"><a href="#" class="nav_link active">Home</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-                    <li class="nav_item nested-link-container"><a href="#" id="test" class="">Categories</a>
-                        <ul class="nested-links">
+                    <li class="nav_item nested-link-container" onclick="displayCategories(event)"><a href="#" id="category-container">Categories</a>
+                        <ul class="nested-links" id="category-nested-links">
                             <li class="nested-links-item" onclick="nestedLinkHandler('allBooks')">All Books</li>
                             <li class="nested-links-item" onclick="nestedLinkHandler('interview')">Coding Interview Books</li>
                             <li class="nested-links-item" onclick="nestedLinkHandler('codingLanguage')">Coding Language Books</li>  
