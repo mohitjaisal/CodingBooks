@@ -47,6 +47,7 @@ a{
         background-color:#2b2b2b ;
         box-shadow: -10px 0px 30px -15px rgba(2,12,27,0.7);
         transition: .5s;
+	z-index: 1;
     }
 }
 .nav_item{
