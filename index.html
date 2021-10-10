@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Books</title>
-    <link rel="shortcut icon" type="image/jpg" href="./logo.png" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/jpg" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="./style/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
       rel="stylesheet"
@@ -21,16 +21,15 @@
     <!-- Header -->
     <header class="l-header">
       <nav class="nav bd-grid">
-        <div>
-          <a href="https://codingbooks.netlify.app/" class="nav_logo"
-            >Coding Books</a
-          >
+        <div class="nav_logo">
+          <img src="./public/img/logo.png" alt="Logo" class="nav_logo_img" />
+          <a href="https://codingbooks.netlify.app/" class="nav_logo_text">Coding Books</a>
         </div>
 
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="#" class="nav_link active">Home</a>
+              <a href="index.html" class="nav_link active">Home</a>
             </li>
             <li class="nav_item"><a href="#" class="nav_link">About</a></li>
             <li
@@ -104,34 +103,7 @@
           d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
           fill="currentColor"
           class="octo-body"
-        ></path></svg></a
-    ><style>
-      .github-corner:hover .octo-arm {
-        animation: octocat-wave 560ms ease-in-out;
-      }
-      @keyframes octocat-wave {
-        0%,
-        100% {
-          transform: rotate(0);
-        }
-        20%,
-        60% {
-          transform: rotate(-25deg);
-        }
-        40%,
-        80% {
-          transform: rotate(10deg);
-        }
-      }
-      @media (max-width: 500px) {
-        .github-corner:hover .octo-arm {
-          animation: none;
-        }
-        .github-corner .octo-arm {
-          animation: octocat-wave 560ms ease-in-out;
-        }
-      }
-    </style>
+        ></path></svg></a>
     <br /><br />
     <br />
     <div id="inteview-book-container">
@@ -139,7 +111,7 @@
       <tr>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-DS.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-DS.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1514voCRFq1DAfDhXffhZ7NZFqRzMmLqF';"
               class="mybuttonoverlap btn btn-info"
@@ -156,7 +128,7 @@
           <a class="box1" target="”_blank”"
             ><img
               class="poster"
-              src="BooksThumb/CB-Coding Interview.jpg"
+              src="./public/BooksThumb/CB-Coding Interview.jpg"
               alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1S9jdttbyHHobrBBMwZq5YLjiaF50kAW-';"
@@ -170,7 +142,7 @@
         </td>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-OS.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-OS.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1CZNuhRki5S6c3hMQ-JwEmRBHEw9eI2XO';"
               class="mybuttonoverlap btn btn-info"
@@ -183,7 +155,7 @@
         </td>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-CN.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-CN.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1MVRTUxQXDtqHWn3pKfZbjQgv8qExU7-K';"
               class="mybuttonoverlap btn btn-info"
@@ -196,7 +168,7 @@
         </td>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-ALGO1.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-ALGO1.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1OT0SFJZPEyTAb5RsSKt5UHIElIoephjG';"
               class="mybuttonoverlap btn btn-info"
@@ -217,7 +189,7 @@
                 class="bx bx-xs bx-download"
                 style="color: white; padding-left: 0.5em"
               ></i></button
-            ><img class="poster" src="BooksThumb/CB-ALGO2.png" alt=""
+            ><img class="poster" src="./public/BooksThumb/CB-ALGO2.png" alt=""
           /></a>
         </td>
       </tr>
@@ -229,7 +201,7 @@
       <tr>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-C.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-C.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1XTOegUKhcXxDDIeA2YwOy4yH627SMop-';"
               class="mybuttonoverlap btn btn-info"
@@ -242,7 +214,7 @@
         </td>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-C++.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-C++.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=10qNgboBktGKc2HbHwBfr_X1XzYh1fGkt';"
               class="mybuttonoverlap btn btn-info"
@@ -255,7 +227,7 @@
         </td>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-JAVA.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-JAVA.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1pBTXhd751AVyY0uJ20Vu2IRyF8leuXTA';"
               class="mybuttonoverlap btn btn-info"
@@ -268,7 +240,7 @@
         </td>
         <td>
           <a class="box1" target="”_blank”"
-            ><img class="poster" src="BooksThumb/CB-PYTHON.png" alt="" />
+            ><img class="poster" src="./public/BooksThumb/CB-PYTHON.png" alt="" />
             <button
               onclick="window.location.href='https://drive.google.com/uc?export=download&id=1514voCRFq1DAfDhXffhZ7NZFqRzMmLqF';"
               class="mybuttonoverlap btn btn-info"
@@ -295,6 +267,6 @@
       >
     </h5>
     <!-- Main JS -->
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
