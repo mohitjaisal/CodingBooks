@@ -370,3 +370,16 @@ label {
   -moz-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.3s ease 0s;
 }
+
+h5 {
+  display: none;
+}
+
+@media screen and (max-width: 400px) {
+  .github {
+    display: none;
+  }
+  h5 {
+    display: block;
+  }
+}
