@@ -1,330 +1,372 @@
-body {font-family: 'Comfortaa', sans-serif;  padding: 0px; background-color: #1a1a1a; }
-.container { width: 300px; text-align: center; }
-h1,h2{
-	color: white;
-	font-family: 'Comfortaa', sans-serif;
+body {
+  font-family: "Comfortaa", sans-serif;
+  padding: 0px;
+  background-color: #1a1a1a;
+}
+.container {
+  width: 300px;
+  text-align: center;
+}
+h1,
+h2 {
+  color: white;
+  font-family: "Comfortaa", sans-serif;
 }
 
-a{
-	text-decoration: none;
-	color: white;
-	font-family: 'Comfortaa', sans-serif;
-
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Comfortaa", sans-serif;
 }
-.bd-grid{
-    max-width: 1024px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-column-gap: 2rem;
-    width: calc(100% - 2rem);
-    margin-left: 1rem;
-    margin-right: 1rem;
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-.l-header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    background-color: #2b2b2b8c;
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #2b2b2b8c;
 }
 
 /* nav */
-.nav{
-    height: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-@media screen and (max-width: 768px){
-    .nav_menu{
-        position: fixed;
-        top: 3rem;
-        right: -200%;
-        width: 100%;
-        height: 100%;
-        padding-top: 2rem;
-        background-color:#2b2b2b;
-        box-shadow: -10px 0px 30px -15px rgba(2,12,27,0.7);
-        transition: .5s;
-        z-index: 1;
-    }
+@media screen and (max-width: 768px) {
+  .nav_menu {
+    position: fixed;
+    top: 3rem;
+    right: -200%;
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+    background-color: #2b2b2b;
+    box-shadow: -10px 0px 30px -15px rgba(2, 12, 27, 0.7);
+    transition: 0.5s;
+    z-index: 1;
+  }
 }
-.nav_item{
-    margin-bottom: 2rem;
-    list-style: none;
+.nav_item {
+  margin-bottom: 2rem;
+  list-style: none;
 }
-.nav_link{
-    position: relative;
-    color: white;
+.nav_link {
+  position: relative;
+  color: white;
 }
-.nav_logo{
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
+.nav_logo {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
 }
-.nav_link:hover{
-    color: gray;
+.nav_link:hover {
+  color: gray;
 }
-.nav_toggle{
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-    margin-right: 3rem;
+.nav_toggle {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 3rem;
 }
 
 /* Show menu */
-.show{
-    right: 0;
-    left: 0;
+.show {
+  right: 0;
+  left: 0;
 }
 
-.copyright{
-	color: gray;
+.copyright {
+  color: gray;
 }
 
-.copyright:hover{
-	transform: scale(1.3);
-	box-shadow: 0 4rem 5rem black;
-	transition: all 0.4s;
-	font-size: 1.8rem;
-
+.copyright:hover {
+  transform: scale(1.3);
+  box-shadow: 0 4rem 5rem black;
+  transition: all 0.4s;
+  font-size: 1.8rem;
 }
 
-.poster{
-    font-family: 'Comfortaa', sans-serif;
+.poster {
+  font-family: "Comfortaa", sans-serif;
   display: inline-block;
   height: 300px;
   line-height: 300px;
   position: relative;
-  color:rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 20px;
 }
 
-.block1{
-    text-align: center;
+.block1 {
+  text-align: center;
 }
 
-.box1:hover .poster{
-	transform: scale(1.2);
+.box1:hover .poster {
+  transform: scale(1.2);
 }
 
-.box1 .poster{
-	box-shadow: 0 4rem 5rem black;
-	transition: all 0.5s;
+.box1 .poster {
+  box-shadow: 0 4rem 5rem black;
+  transition: all 0.5s;
+}
+.nested-links {
+  opacity: 0;
+  position: absolute;
+  min-width: 200px;
+  max-width: 200px;
+  background-color: grey;
+  height: 0;
+  transition: all 0.25s;
+}
+
+.nested-links .nested-links-item {
+  color: white;
+  /* width: 100%; */
+}
+
+.nested-link-container {
+  position: relative;
+}
+
+.nested-link-container:hover .nested-links {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nested-links {
+  color: black;
+  cursor: pointer;
+  height: unset;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s;
+}
+
+.nested-links-item:hover {
+  background-color: rgb(109, 109, 109);
+}
+
+#inteview-book-container {
+  display: block;
+}
+
+#inteview-book-container {
+  display: block;
+}
+
+.nested-links-item {
+  margin-top: 5px;
+  padding: 10px;
+  margin-left: -38px;
+}
+
+.nested-links > li {
+  text-align: left;
+  list-style-type: none;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
   }
-.nested-links{
-    opacity: 0;
-    position: absolute;
-    min-width: 200px;
-    max-width: 200px;
-    background-color:grey;
+  .nav {
+    height: 4rem;
+    margin-right: 2rem;
+  }
+  .nav_list {
+    display: flex;
+  }
+  .nav_item {
+    margin-left: 2rem;
+    margin-bottom: 0;
+  }
+  .nav_toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nested-links {
     height: 0;
+    position: static;
+    width: 100%;
     transition: all 0.25s;
+    margin-left: 25%;
   }
-
-  .nested-links .nested-links-item{
-      color: white;
-      /* width: 100%; */
-  }
-
-  .nested-link-container{
-      position: relative;
+  .nested-link-container:hover {
+    height: unset;
   }
 
   .nested-link-container:hover .nested-links {
-    visibility: visible;
-    opacity: 1;
- }
-
-  .nested-links {
-    color: black;
-    cursor: pointer;
-    height: unset;
-    opacity: 0;
-    visibility: hidden;
     transition: all 0.25s;
+    height: 130px;
   }
-
-  .nested-links-item:hover{
-      background-color: rgb(109, 109, 109);
-  } 
-
-  #inteview-book-container{
-      display: block
+}
+@media screen and (min-width: 1024px) {
+  .nav_logo {
+    margin-left: 3rem;
+    font-size: 1.1rem;
   }
-  
-  #inteview-book-container{
-      display: block
+  .nav_menu {
+    position: absolute;
+    width: 90%;
   }
-
-  .nested-links-item{
-      margin-top: 5px;
-      padding: 10px;
-      margin-left: -38px;
+  .nav_list {
+    float: right;
   }
-
-  .nested-links > li{
-      text-align: left;
-      list-style-type: none;
+  .nav_item {
+    padding-right: 1rem;
+    font-size: 1.1rem;
   }
+}
 
-/* Media queries */
-@media screen and (min-width:768px){
-    body{
-        margin: 0;
-    }
-    .nav{
-        height: 4rem;
-        margin-right:2rem ;
-    }
-    .nav_list{
-        display: flex;
-    }
-    .nav_item{
-        margin-left: 2rem;
-        margin-bottom: 0;
-    }
-    .nav_toggle{
-        display: none;
-    }}
-
-    
-
-    @media (max-width: 768px){
-        .nested-links{
-            height: 0;
-            position: static;
-            width: 100%;
-            transition: all 0.25s;
-            margin-left: 25%;
-        }
-        .nested-link-container:hover{
-            height: unset;
-        }
-
-    .nested-link-container:hover .nested-links {
-        transition: all 0.25s;
-        height: 130px;
-      }
-    }
-	@media screen and (min-width: 1024px){
-		.nav_logo{
-			margin-left: 3rem;
-			font-size: 1.1rem;
-		}
-		.nav_menu{
-			position: absolute;
-			width: 90%;
-		}
-		.nav_list{
-			float: right;
-		}
-		.nav_item{
-			padding-right: 1rem;
-			font-size: 1.1rem;
-		}
-    }
-
- /* Add a Book CSS  */
+/* Add a Book CSS  */
 
 .mainContent {
-    padding: 7%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  padding: 7%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .leftContent {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .rightContent {
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .rightContent > img {
-    width: auto;
-    height: 100%;
+  width: auto;
+  height: 100%;
 }
 .driveLinkHere {
-    font-size: 20px;
-    color: white ;
-    padding: 10px;
-} 
-.aboutDriveLink{
-    color: white;
-    opacity: 0.7;
-    padding: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.aboutDriveLink {
+  color: white;
+  opacity: 0.7;
+  padding: 10px;
 }
 
 #driveLinkInput {
-    width: 100%;
-    background-color: #363636;
-    padding: 12px 10px;
-    margin: 5px 10px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    display:inline-flex;
-    box-sizing: border-box;
-    color: rgb(185, 185, 185);
-    width: 100%;
+  width: 100%;
+  background-color: #363636;
+  padding: 12px 10px;
+  margin: 5px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  display: inline-flex;
+  box-sizing: border-box;
+  color: rgb(185, 185, 185);
+  width: 100%;
 }
 .coverPage {
-    display: flex;
-    flex-direction: row;
-    margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
 }
 .coverPageText {
-    color: white;
-    padding: 10px;
-    font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
 }
 #coverPageFile {
-    color: white;
-    padding: 10px;
+  color: white;
+  padding: 10px;
 }
 .bookType {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .TypeQues {
-    font-size: 20px;
-    color: white;
-    padding: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
 }
 label {
-    padding: 10px;
-    color: white;
+  padding: 10px;
+  color: white;
 }
 .addBook {
-    padding: 20px;
+  padding: 20px;
 }
 .addBook > button {
-
-    background-color: #C4C4C4;
-    padding: 12px 20px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 7px;
-    display:inline-flex;
-    box-sizing: border-box;
-    color: rgb(0, 0, 0);
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 20px;
-    
+  background-color: #c4c4c4;
+  padding: 12px 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  display: inline-flex;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
 }
 .addBook > button:hover {
-    background-color: #4b4b4b ;
-    cursor: pointer;
-    color: white;
+  background-color: #4b4b4b;
+  cursor: pointer;
+  color: white;
 }
 .coderVector {
-    float: right;
+  float: right;
+}
+
+.box1 {
+  position: relative;
+  z-index: 1;
+}
+.mybuttonoverlap {
+  width: 50%;
+  height: 3em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.1em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  padding: 0.5em;
+  background-color: #1a1a1a;
+  color: #c4c4c4;
+  left: 27%;
+  bottom: 3em;
+
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.box1:hover .mybuttonoverlap {
+  display: block;
+}
+
+.mybuttonoverlap:hover {
+  background-color: #1a1a1a;
+  color: #c4c4c4 !important;
+  font-weight: 600 !important;
+  width: 55%;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
 }
