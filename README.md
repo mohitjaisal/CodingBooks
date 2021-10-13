@@ -1,8 +1,20 @@
-# CodingBooks
+![image](https://user-images.githubusercontent.com/23385605/137148708-f5783b73-1465-4761-8375-93e63790ec0b.png)
 
-[![Website](https://img.shields.io/website?label=codingbooks.netlify.app&style=for-the-badge&url=https%3A%2F%2Fmohitjaisal.com)](https://codingbooks.netlify.app)
-
-<a href="https://codingbooks.netlify.app"><img src="https://github.com/mohitjaisal/GifStore/blob/master/RawImages/Netlify%20Success.svg" alt="Netlify Status"></a>
+<div align="center">
+<br/>
+  <p>
+   
+  </p>
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML 5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS 3" />
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <br />
+  <a href="https://github.com/mohitjaisal/CodingBooks/graphs/contributors"><img src="https://img.shields.io/github/contributors/mohitjaisal/CodingBooks?style=flat-square" alt="Github Contributors" /></a>
+  <a href="https://github.com/mohitjaisal/CodingBooks/issues"><img src="https://img.shields.io/github/issues/mohitjaisal/CodingBooks?style=flat-square" alt="Github issues open" /></a>
+  <img src="https://img.shields.io/github/languages/code-size/mohitjaisal/CodingBooks?style=flat-square" alt="Github code size" />
+  <a href="https://CodingBooks.netlify.app/"><img src="https://img.shields.io/badge/demo-here-orange?style=flat-square" alt="Demo badge" /></a>
+</div>
 
 
 
@@ -25,11 +37,17 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Clone the repo
+1. Fork this repository
+
+![image](https://user-images.githubusercontent.com/68009648/137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19.png)
+
+
+
+2. Clone the repo
    ```sh
    git clone https://github.com/mohitjaisal/CodingBooks.git
    ```
-2. Run index.html
+3. Run index.html
 
 <!-- CONTRIBUTING -->
 ## Contributing
