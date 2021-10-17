@@ -245,8 +245,8 @@ a {
     height: 130px;
   }
   .github-corner {
-		display: none !important;
-	}
+    display: none !important;
+  }
 }
 @media screen and (min-width: 1024px) {
   .nav_logo {
@@ -396,9 +396,25 @@ label {
   background-color: #1a1a1a;
   color: #c4c4c4 !important;
   font-weight: 590 !important;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   -webkit-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.3s ease 0s;
 }
 
+@media screen and (max-width: 768px) {
+  .box1:hover .poster {
+    transform: scale(1);
+  }
+  .poster:hover {
+    height: 350px;
+  }
+  .mybuttonoverlap {
+    background-color: #030303;
+    border-radius: 0.3em;
+    width: 30%;
+    position: static;
+    margin: 35px auto;
+    display: block;
+  }
+}
