@@ -78,9 +78,8 @@ a {
 }
 .nav_logo_text {
   margin-left: 5px;
-  text-decoration: none;
   cursor: pointer;
-  color: white;
+  z-index: 33;
 }
 .nav_link:hover {
   color: gray;
