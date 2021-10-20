@@ -63,9 +63,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-.about-logo {
-  z-index: 44;
-}
 
 .nav_logo_img {
   width: 2rem;
