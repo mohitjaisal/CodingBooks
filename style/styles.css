@@ -63,6 +63,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+.about-logo {
+  z-index: 44;
+}
 
 .nav_logo_img {
   width: 2rem;
@@ -244,8 +247,8 @@ a {
     height: 130px;
   }
   .github-corner {
-		display: none !important;
-	}
+    display: none !important;
+  }
 }
 @media screen and (min-width: 1024px) {
   .nav_logo {
@@ -395,9 +398,8 @@ label {
   background-color: #1a1a1a;
   color: #c4c4c4 !important;
   font-weight: 590 !important;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
   -webkit-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 5px 5px 5px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.3s ease 0s;
 }
-
