@@ -300,6 +300,17 @@ a {
   padding: 10px;
 }
 
+.AboutTheProject {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.AboutTheProject2 {
+  color: white;
+  opacity: 0.7;
+  padding: 10px;
+}
+
 #driveLinkInput {
   width: 100%;
   background-color: #363636;
