@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Books</title>
+        <link rel="shortcut icon" type="image/jpg" href="./logo.png"/>
+        <link rel="stylesheet" href="./style/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+        <!-- Box Icons -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="https://codingbooks.netlify.app/" class="nav_logo">Coding Books</a>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="index.html" class="nav_link active">Home</a></li>
+                        <li class="nav_item"><a href="#" class="nav_link">About</a></li>
+                        <li class="nav_item nested-link-container" onclick="displayCategories(event)"><a href="#" id="category-container">Categories</a>
+                            <ul class="nested-links" id="category-nested-links">
+                                <li class="nested-links-item" onclick="nestedLinkHandler('allBooks')">All Books</li>
+                                <li class="nested-links-item" onclick="nestedLinkHandler('interview')">Coding Interview Books</li>
+                                <li class="nested-links-item" onclick="nestedLinkHandler('codingLanguage')">Coding Language Books</li>  
+                            </ul>
+                        </li>
+                        <li class="nav_item"><a href="#" class="nav_link">Top Books</a></li>
+                        <li class="nav_item"><a href="./addABook.html" class="nav_link" >Add a book</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu-alt-right'></i>
+                </div>
+            </nav>
+        </header>
+        <div class="mainContent">
+            <div class="leftContent">
+                <div>
+                    <div class="driveLink">
+                        <div class="AboutTheProject">About the Project :</div>
+
+                            <a href="https://codingbooks.netlify.app/">
+                            <img alt="Qries" src="https://raw.githubusercontent.com/mohitjaisal/ImageStore/master/GifStore/codingbooksgif.gif"
+                            width="600" height="300">
+
+                        <div class="AboutTheProject2"> As you begin your path on becoming a coding specialist it is always pleasant to find good sources of information. Many computer languages might be tricky to learn at the beginning so you need reliable references to double-check your mistakes and learn how to not make them again. This project has a vast range of programming books which you can read online or download locally. </div>
+
+                </div>
+            </div>
+<!--             <div class="rightContent">
+                <img src="./public/img/vector.png" /> -->
+			</div>">
+            </div>
+        </div>
+        
+    </body>
+</html>
