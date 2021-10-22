@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Books</title>
+    <link rel="icon" type="image/jpg" href="./public/favicon.ico" />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fav icon -->
+    <script
+      src="https://kit.fontawesome.com/e057b28e7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+        
+.webpage {
+  border-radius: 1em;
+  border: 0.4em solid #ffffff;
+  background: #000000;
+  background: #201e1e url(https://i.postimg.cc/50Tjhs0T/UI.png) no-repeat top left;
+  background-size: 98% auto;
+  width: 45em;
+  height: 30em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: scroll 10s  infinite;
+}
+
+@keyframes scroll {
+  0,
+  10% {
+    background-position: 0 0;
+  }
+  20%,
+  30% {
+    background-position: 0 -22em;
+  }
+  50%,
+  60% {
+    background-position: 0 -50em;
+  }
+  90%,
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+.webpage:hover {
+  animation-play-state: paused;
+}
+
+    </style>
+    <title>About</title>
+</head>
+<body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="nav_logo">
+          <img src="./public/img/logo.png" alt="Logo" class="nav_logo_img" />
+          <a onclick="topFunction()" class="nav_logo_text">Coding Books</a>
+        </div>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="index.html" class="nav_link active">Home</a>
+            </li>
+            
+
+            <li class="nav_item">
+              <a href ="./About.html" class="nav_link">About</a>
+            
+
+            <li
+              class="nav_item nested-link-container"
+              onclick="displayCategories(event)"
+            >
+              <a href="#" id="category-container">Categories</a>
+              <ul class="nested-links" id="category-nested-links">
+                <li
+                  class="nested-links-item"
+                  onclick="nestedLinkHandler('allBooks')"
+                >
+                  All Books
+                </li>
+                <li
+                  class="nested-links-item"
+                  onclick="nestedLinkHandler('interview')"
+                >
+                  Coding Interview Books
+                </li>
+                <li
+                  class="nested-links-item"
+                  onclick="nestedLinkHandler('codingLanguage')"
+                >
+                  Coding Language Books
+                </li>
+              </ul>
+            </li>
+            <li class="nav_item"><a href="#" class="nav_link">Top Books</a></li>
+            <li class="nav_item">
+              <a href="./addABook.html" class="nav_link">Add a book</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="webpage"></div>
+      <script src="./js/main.js"></script>
+</body>
+</html>
