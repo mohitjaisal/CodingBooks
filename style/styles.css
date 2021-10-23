@@ -72,18 +72,46 @@ a {
   margin-bottom: 2rem;
   list-style: none;
 }
+
 .nav_link {
-  position: relative;
-  color: white;
-}
-.nav_logo_text {
-  margin-left: 5px;
   cursor: pointer;
-  z-index: 33;
+  color: white;
+  position: relative;
+  padding: 10px 16px;
+  background: #00000034;
+  font-size: 15px;
+  transition: all 1s;
+}
+.nav_link:after, .nav_link:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+.nav_link:after {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+}
+.nav_link:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
 }
 .nav_link:hover {
-  color: gray;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
+.nav_link:hover:before, .nav_link:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+
 .nav_toggle {
   color: white;
   font-size: 2rem;
@@ -137,9 +165,10 @@ a {
   position: absolute;
   min-width: 200px;
   max-width: 200px;
-  background-color: grey;
+  background-color: #000000d5;
   height: 0;
   transition: all 0.25s;
+  font-size: 18px;
 }
 
 .nested-links .nested-links-item {
@@ -154,6 +183,7 @@ a {
 .nested-link-container:hover .nested-links {
   visibility: visible;
   opacity: 1;
+  
 }
 
 .nested-links {
@@ -166,7 +196,9 @@ a {
 }
 
 .nested-links-item:hover {
-  background-color: rgb(109, 109, 109);
+  background-color: rgb(58, 58, 58);
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 #inteview-book-container {
@@ -219,7 +251,7 @@ a {
     display: flex;
   }
   .nav_item {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 0;
   }
   .nav_toggle {
