@@ -1,98 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coding Books</title>
-    <link rel="icon" type="image/jpg" href="./public/favicon.ico" />
-    <link rel="stylesheet" href="./style/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- fav icon -->
-    <script
-      src="https://kit.fontawesome.com/e057b28e7b.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Box Icons -->
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body class="block1">
-    <!-- Header -->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div class="nav_logo">
-          <img src="./public/img/logo.png" alt="Logo" class="nav_logo_img" />
-          <a onclick="topFunction()" class="nav_logo_text">Coding Books</a>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding Books</title>
+  <link rel="icon" type="image/jpg" href="./public/favicon.ico" />
+  <link rel="stylesheet" href="./style/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet" />
+  <!-- fav icon -->
+  <script src="https://kit.fontawesome.com/e057b28e7b.js" crossorigin="anonymous"></script>
+  <!-- Box Icons -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+</head>
 
-        <div class="nav_menu" id="nav-menu">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="index.html" class="nav_link active">Home</a>
-            </li>
-            
+<body class="block1">
+  <!-- Header -->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div class="nav_logo">
+        <img src="./public/img/logo.png" alt="Logo" class="nav_logo_img" />
+        <a onclick="topFunction()" class="nav_logo_text">Coding Books</a>
+      </div>
 
-            <li class="nav_item">
-              <a href ="./About.html" class="nav_link">About</a>
-            </li>
-            
-            <li
-              class="nav_item nested-link-container"
-              onclick="displayCategories(event)"
-            >
-              <a href="#" id="category-container"><a class="nav_link">Categories</a></a>
-              <ul class="nested-links" id="category-nested-links">
-                <li
-                  class="nested-links-item"
-                  onclick="nestedLinkHandler('allBooks')"
-                >
-                  All Books
-                </li>
-                <li
-                  class="nested-links-item"
-                  onclick="nestedLinkHandler('interview')"
-                >
-                  Coding Interview Books
-                </li>
-                <li
-                  class="nested-links-item"
-                  onclick="nestedLinkHandler('codingLanguage')"
-                >
-                  Coding Language Books
-                </li>
-              </ul>
-            </li>
-            
-            <li class="nav_item"><a href="#" class="nav_link">Top Books</a></li>
-            <li class="nav_item">
-              <a href="./addABook.html" class="nav_link">Add a book</a>
-            </li>
-          </ul>
-        </div>
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="index.html" class="nav_link active">Home</a>
+          </li>
 
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="bx bx-menu-alt-right"></i>
-        </div>
-      </nav>
-    </header>
 
-    <a
-      href="https://github.com/mohitjaisal/CodingBooks"
-      target="_blank"
-      class="github-corner"
-      aria-label="View source on GitHub"
-      ><svg
-        class="github"
-        width="80"
-        height="80"
-        viewBox="0 0 250 250"
-        style="
+          <li class="nav_item">
+            <a href="./About.html" class="nav_link">About</a>
+          </li>
+
+          <li class="nav_item nested-link-container" onclick="displayCategories(event)">
+            <a href="#" id="category-container"><a class="nav_link">Categories</a></a>
+            <ul class="nested-links" id="category-nested-links">
+              <li class="nested-links-item" onclick="nestedLinkHandler('allBooks')">
+                All Books
+              </li>
+              <li class="nested-links-item" onclick="nestedLinkHandler('interview')">
+                Coding Interview Books
+              </li>
+              <li class="nested-links-item" onclick="nestedLinkHandler('codingLanguage')">
+                Coding Language Books
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav_item"><a href="#" class="nav_link">Top Books</a></li>
+          <li class="nav_item">
+            <a href="./addABook.html" class="nav_link">Add a book</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <i class="bx bx-menu-alt-right"></i>
+      </div>
+    </nav>
+  </header>
+
+  <a href="https://github.com/mohitjaisal/CodingBooks" target="_blank" class="github-corner"
+    aria-label="View source on GitHub"><svg class="github" width="80" height="80" viewBox="0 0 250 250" style="
           fill: #fff;
           color: #151513;
           position: absolute;
@@ -100,194 +71,118 @@
           top: 0;
           border: 0;
           right: 0;
-        "
-        aria-hidden="true"
-      >
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path
-          d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-          fill="currentColor"
-          style="transform-origin: 130px 106px"
-          class="octo-arm"
-        ></path>
-        <path
-          d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-          fill="currentColor"
-          class="octo-body"
-        ></path></svg
-    ></a>
-    <br /><br />
-    <br />
-    <div id="inteview-book-container">
-      <h1>Coding Interview Books</h1>
-      <tr>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img class="poster" src="./public/BooksThumb/CB-DS.png" alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1514voCRFq1DAfDhXffhZ7NZFqRzMmLqF';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i>
-            </button>
-          </a>
-        </td>
+        " aria-hidden="true">
+      <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+      <path
+        d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+        fill="currentColor" style="transform-origin: 130px 106px" class="octo-arm"></path>
+      <path
+        d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+        fill="currentColor" class="octo-body"></path>
+    </svg></a>
+  <br /><br />
+  <br />
+  <div id="inteview-book-container">
+    <h1>Coding Interview Books</h1>
+    <tr>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-DS.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1514voCRFq1DAfDhXffhZ7NZFqRzMmLqF';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i>
+          </button>
+        </a>
+      </td>
 
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img
-              class="poster"
-              src="./public/BooksThumb/CB-Coding Interview.jpg"
-              alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1S9jdttbyHHobrBBMwZq5YLjiaF50kAW-';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img class="poster" src="./public/BooksThumb/CB-OS.png" alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1CZNuhRki5S6c3hMQ-JwEmRBHEw9eI2XO';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img class="poster" src="./public/BooksThumb/CB-CN.png" alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1MVRTUxQXDtqHWn3pKfZbjQgv8qExU7-K';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img
-              class="poster"
-              src="./public/BooksThumb/CB-ALGO1.png"
-              alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1OT0SFJZPEyTAb5RsSKt5UHIElIoephjG';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”">
-              <img class="poster" src="./public/BooksThumb/CB-ALGO2.png" alt=""
-          />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1--qdrlHsJeBF11-TmPDC4K7oEikbbYiN';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-            ></a>
-        </td>
-      </tr>
-      <br /><br /><br /><br /><br />
-    </div>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-Coding Interview.jpg"
+            alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1S9jdttbyHHobrBBMwZq5YLjiaF50kAW-';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-OS.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1CZNuhRki5S6c3hMQ-JwEmRBHEw9eI2XO';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-CN.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1MVRTUxQXDtqHWn3pKfZbjQgv8qExU7-K';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-ALGO1.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1OT0SFJZPEyTAb5RsSKt5UHIElIoephjG';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”">
+          <img class="poster" src="./public/BooksThumb/CB-ALGO2.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1--qdrlHsJeBF11-TmPDC4K7oEikbbYiN';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+    </tr>
+    <br /><br /><br /><br /><br />
+  </div>
 
-    <div id="coding-books-container">
-      <h1>Coding Language Books</h1>
-      <tr>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img class="poster" src="./public/BooksThumb/CB-C.png" alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1XTOegUKhcXxDDIeA2YwOy4yH627SMop-';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img class="poster" src="./public/BooksThumb/CB-C++.png" alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=10qNgboBktGKc2HbHwBfr_X1XzYh1fGkt';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img class="poster" src="./public/BooksThumb/CB-JAVA.png" alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1pBTXhd751AVyY0uJ20Vu2IRyF8leuXTA';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-        <td>
-          <a class="box1" target="”_blank”"
-            ><img
-              class="poster"
-              src="./public/BooksThumb/CB-PYTHON.png"
-              alt="" />
-            <button
-              onclick="window.location.href='https://drive.google.com/uc?export=download&id=1514voCRFq1DAfDhXffhZ7NZFqRzMmLqF';"
-              class="mybuttonoverlap btn btn-info"
-            >
-              Download<i
-                class="bx bx-xs bx-download"
-                style="color: white; padding-left: 0.5em"
-              ></i></button
-          ></a>
-        </td>
-      </tr>
-    </div>
+  <div id="coding-books-container">
+    <h1>Coding Language Books</h1>
+    <tr>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-C.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1XTOegUKhcXxDDIeA2YwOy4yH627SMop-';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-C++.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=10qNgboBktGKc2HbHwBfr_X1XzYh1fGkt';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-JAVA.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1pBTXhd751AVyY0uJ20Vu2IRyF8leuXTA';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+      <td>
+        <a class="box1" target="”_blank”"><img class="poster" src="./public/BooksThumb/CB-PYTHON.png" alt="" />
+          <button
+            onclick="window.location.href='https://drive.google.com/uc?export=download&id=1514voCRFq1DAfDhXffhZ7NZFqRzMmLqF';"
+            class="mybuttonoverlap btn btn-info">
+            Download<i class="bx bx-xs bx-download" style="color: white; padding-left: 0.5em"></i></button></a>
+      </td>
+    </tr>
+  </div>
 
-    <br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br />
+  <footer>
     <h2>
       Made By
-      <a href="https://mohitjaisal.com"
-        ><strong class="copyright">Mohit Jaisal</strong></a
-      >
+      <a href="https://mohitjaisal.com"><strong class="copyright">Mohit Jaisal</strong></a>
     </h2>
     <h5>
-      <a href="https://github.com/mohitjaisal/CodingBooks"
-        ><strong class="copyright"
-          ><i class="fab fa-github"></i> GitHub</strong
-        ></a
-      >
+      <a href="https://github.com/mohitjaisal/CodingBooks"><strong class="copyright"><i class="fab fa-github"></i>
+          GitHub</strong></a>
     </h5>
-    <!-- Main JS -->
-    <script src="./js/main.js"></script>
-  </body>
+  </footer>
+  <!-- Main JS -->
+  <script src="./js/main.js"></script>
+</body>
+
 </html>

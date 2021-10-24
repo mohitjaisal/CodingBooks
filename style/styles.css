@@ -449,3 +449,8 @@ label {
     display: block;
   }
 }
+
+footer{
+  display: flex;
+  justify-content: space-around;
+}
