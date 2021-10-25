@@ -454,3 +454,65 @@ footer{
   display: flex;
   justify-content: space-around;
 }
+
+.btnss {
+  cursor: pointer;
+  color: white;
+  position: relative;
+  padding: 10px 16px;
+  background: #00000034;
+  font-size: 15px;
+  transition: all 1s;
+}
+.btnss:after, .btnss:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+.btnss:after {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left: 2px solid rgb(255, 255, 255);
+}
+.btnss:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+}
+.btnss:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.btnss:hover:before, .btnss:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.btnss {
+  width: 50%;
+  height: 3em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.1em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  display: none;
+  padding: 0.5em;
+  background-color: #1a1a1a;
+  color: #c4c4c4;
+  left: 27%;
+  bottom: 3em;
+
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.box1:hover .btnss {
+  display: block;
+}
