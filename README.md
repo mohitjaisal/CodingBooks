@@ -28,6 +28,9 @@ As you begin your path on becoming a coding specialist it is always pleasant to 
 
 <h3><a href="https://codingbooks.netlify.app">Website Demo link</a></h3>
 
+<h3><a href="https://orange-forest-0bc436210.1.azurestaticapps.net/">Azure Demo Link</a></h3> (https://orange-forest-0bc436210.1.azurestaticapps.net)
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
