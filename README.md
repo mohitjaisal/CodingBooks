@@ -59,7 +59,27 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
+![image](https://user-images.githubusercontent.com/68009648/137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19.png)
+
+2. Create your Feature Branch
+
+   ```sh
+   git checkout -b feature/AmazingFeature
+   ```
+
+3. Commit your Changes
+
+ ```sh
+   git commit -m 'Add some AmazingFeature
+   ```
+
+4. Push to the Branch
+
+ ```sh
+   git push origin feature/AmazingFeature
+   ```
+
 5. Open a Pull Request
+
+![image](/CodingBooks/public/img/pul-request.png)
