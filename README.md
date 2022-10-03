@@ -21,7 +21,8 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-![alt text](/CodingBooks/public/codingbooksgif.gif)
+![codingbooksgif](https://user-images.githubusercontent.com/76783608/193575044-4c7b98a8-af17-41f0-bd8e-b112fe1aa6d7.gif)
+
 
 <br>
 As you begin your path on becoming a coding specialist it is always pleasant to find good sources of information. Many computer languages might be tricky to learn at the beginning so you need reliable references to double-check your mistakes and learn how to not make them again. This project has a vast range of programming books which you can read online or download locally.
@@ -97,4 +98,5 @@ $ git push origin mybranch
 
 To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the Code of Conduct and also go through Guidelines for Contributing at least once.
 
-![image](/CodingBooks/public/img/code-of-conduct.jpg)
+![code-of-conduct-2](https://user-images.githubusercontent.com/76783608/193582793-0ecf3408-06f2-4874-958c-514c31fb77b3.jpg)
+
