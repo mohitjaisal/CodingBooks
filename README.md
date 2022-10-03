@@ -56,43 +56,43 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- CONTRIBUTING -->
 # Contributing Guidelines 🏗
-
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-![image](/CodingBooks/public/img/github.png)
 
-Do you seem to notice any of your favorite features that we are missing? If yes, do you think you can add it and make it a beautiful experience for all?
+#### Steps for contribution
 
-We are excited to invite you to contribute to this project and make it better.
+1. Fork the repo
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star!
+2. Clone the forked repo into your local machine <br>
+``` bash 
+$ git clone https://github.com/your_username/CodingBooks.git
+```
 
-1. Fork the Project
+3. cd to the repo
+```bash
+ $ cd CodingBooks
+ ```
 
-![image](https://user-images.githubusercontent.com/68009648/137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19.png)
+4. Create a branch
+```bash
+    $ git checkout -b mybranch
+```
 
-2. Create your Feature Branch
+5. Open the repo code using any IDE/text-editors
 
-   ```sh
-   git checkout -b feature/AmazingFeature
-   ```
 
-3. Commit your Changes
+6. Do changes or add the specific feature you are looking in the desired package.
 
-   ```sh
-   git commit -m 'Add some AmazingFeature
-   ```
+7. Add, Commit and Push the changes to your forked repo
+``` bash
+$ git add .
 
-4. Push to the Branch
+$ git commit -m "your commit message"
 
-   ```sh
-   git push origin feature/AmazingFeature
-   ```
+$ git push origin mybranch
+```
 
-5. Open a Pull Request
-
-![image](/CodingBooks/public/img/pul-request.png)
+8. Create a pull request from `mybranch` of your forked repo to `main` branch of this(upstream) repo.
 
 # Code of Conduct 📜
 
