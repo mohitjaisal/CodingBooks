@@ -21,7 +21,8 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-![alt text](/CodingBooks/public/codingbooksgif.gif)
+![codingbooksgif](https://user-images.githubusercontent.com/76783608/193575044-4c7b98a8-af17-41f0-bd8e-b112fe1aa6d7.gif)
+
 
 <br>
 As you begin your path on becoming a coding specialist it is always pleasant to find good sources of information. Many computer languages might be tricky to learn at the beginning so you need reliable references to double-check your mistakes and learn how to not make them again. This project has a vast range of programming books which you can read online or download locally.
@@ -39,8 +40,8 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Fork this repository
+![137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19](https://user-images.githubusercontent.com/76783608/193569677-6a779b8b-c33b-4445-85b6-a0bbaf95a8a3.png)
 
-![image](https://user-images.githubusercontent.com/68009648/137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19.png)
 
 
 
@@ -51,51 +52,50 @@ To get a local copy up and running follow these simple example steps.
    ```
 
 3. Run index.html
-
-![image](/CodingBooks/public/img/index.png)
+  <img width="304" alt="Screenshot 2022-10-03 at 5 19 15 PM" src="https://user-images.githubusercontent.com/76783608/193571569-85301c40-6370-4485-9578-e293615410fe.png">
 
 <!-- CONTRIBUTING -->
 # Contributing Guidelines 🏗
-
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-![image](/CodingBooks/public/img/github.png)
 
-Do you seem to notice any of your favorite features that we are missing? If yes, do you think you can add it and make it a beautiful experience for all?
+#### Steps for contribution
 
-We are excited to invite you to contribute to this project and make it better.
+1. Fork the repo
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star!
+2. Clone the forked repo into your local machine <br>
+``` bash 
+$ git clone https://github.com/your_username/CodingBooks.git
+```
 
-1. Fork the Project
+3. cd to the repo
+```bash
+ $ cd CodingBooks
+ ```
 
-![image](https://user-images.githubusercontent.com/68009648/137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19.png)
+4. Create a branchz
+```bash
+ $ git checkout -b mybranch
+```
 
-2. Create your Feature Branch
+5. Open the repo code using any IDE/text-editors
 
-   ```sh
-   git checkout -b feature/AmazingFeature
-   ```
 
-3. Commit your Changes
+6. Do changes or add the specific feature you are looking in the desired package.
 
-   ```sh
-   git commit -m 'Add some AmazingFeature
-   ```
+7. Add, Commit and Push the changes to your forked repo
+``` bash
+$ git add .
 
-4. Push to the Branch
+$ git commit -m "your commit message"
 
-   ```sh
-   git push origin feature/AmazingFeature
-   ```
+$ git push origin mybranch
+```
 
-5. Open a Pull Request
-
-![image](/CodingBooks/public/img/pul-request.png)
+8. Create a pull request from `mybranch` of your forked repo to `main` branch of this(upstream) repo.
 
 # Code of Conduct 📜
 
 To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the Code of Conduct and also go through Guidelines for Contributing at least once.
+![code-of-conduct-2](https://user-images.githubusercontent.com/76783608/193582793-0ecf3408-06f2-4874-958c-514c31fb77b3.jpg)
 
-![image](/CodingBooks/public/img/code-of-conduct.jpg)
