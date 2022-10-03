@@ -39,8 +39,8 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Fork this repository
+![137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19](https://user-images.githubusercontent.com/76783608/193569677-6a779b8b-c33b-4445-85b6-a0bbaf95a8a3.png)
 
-![image](https://user-images.githubusercontent.com/68009648/137146860-8eeed4d3-9a26-49bb-8176-409e0f575d19.png)
 
 
 
@@ -51,8 +51,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 
 3. Run index.html
-
-![image](/CodingBooks/public/img/index.png)
+  <img width="304" alt="Screenshot 2022-10-03 at 5 19 15 PM" src="https://user-images.githubusercontent.com/76783608/193571569-85301c40-6370-4485-9578-e293615410fe.png">
 
 <!-- CONTRIBUTING -->
 # Contributing Guidelines 🏗
@@ -73,9 +72,9 @@ $ git clone https://github.com/your_username/CodingBooks.git
  $ cd CodingBooks
  ```
 
-4. Create a branch
+4. Create a branchz
 ```bash
-    $ git checkout -b mybranch
+ $ git checkout -b mybranch
 ```
 
 5. Open the repo code using any IDE/text-editors
