@@ -8,9 +8,17 @@ body {
   text-align: center;
 }
 h1,
-h2 {
+h2,
+h3 {
   color: white;
   font-family: "Comfortaa", sans-serif;
+  font-size: 16px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
 }
 
 a {
@@ -62,10 +70,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .nav_logo_img {
   width: 2rem;
+  z-index: 1;
 }
 
 .nav_item {
@@ -201,12 +211,9 @@ a {
   border-bottom-left-radius: 0px;
 }
 
-#inteview-book-container {
-  display: block;
-}
-
-#inteview-book-container {
-  display: block;
+#inteview-book-container, #coding-books-container {
+  margin-top: -0.8rem;
+  margin-bottom: 6rem;
 }
 
 .nested-links-item {
@@ -453,4 +460,9 @@ label {
 footer{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.footer-github {
+  font-size: 0.8rem;
 }
