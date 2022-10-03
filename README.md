@@ -97,6 +97,5 @@ $ git push origin mybranch
 # Code of Conduct 📜
 
 To maintain a safe and inclusive space for everyone, to learn and grow, contributors are advised to follow the Code of Conduct and also go through Guidelines for Contributing at least once.
-
 ![code-of-conduct-2](https://user-images.githubusercontent.com/76783608/193582793-0ecf3408-06f2-4874-958c-514c31fb77b3.jpg)
 
